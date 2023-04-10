@@ -18,7 +18,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="pb-16 px-10">
+    <section id="contact" className="pb-16 px-10 min-h-[84vh] pt-20">
       <div>
         <h2 className="text-emerald-700 mb-8 text-5xl">Contact</h2>
       </div>

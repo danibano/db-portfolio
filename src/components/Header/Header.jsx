@@ -59,7 +59,7 @@ const Header = () => {
             <a href='#resume' className='bg-emerald-700 hover:bg-gradient-to-r from-emerald-700 to-emerald-400 text-white px-4 py-2 rounded-md ml-8'>Resume</a>
             </li> */}
             <li>
-            <a onClick={handleClick}  href='#connect' className='bg-emerald-700 hover:bg-emerald-500 ease-in duration-200 text-white px-4 py-2 rounded-md ml-8'>Connect</a>
+            <a onClick={handleClick}  href='#contact' className='bg-emerald-700 hover:bg-emerald-500 ease-in duration-200 text-white px-4 py-2 rounded-md ml-8'>Connect</a>
             </li>
         </ul>
         </nav>

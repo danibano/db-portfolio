@@ -3,7 +3,7 @@ import me from '../../img/me.jpg'
 import {AiOutlineDownload} from 'react-icons/ai'
 import {BsFillEyeFill} from 'react-icons/bs'
 import {AiOutlineAppstore} from 'react-icons/ai'
-import resume from '../Resume/Resume.pdf'
+import resume from '../Resume/Danielle_Banovetz_Resume.pdf'
 
 
 const Home = () => {
