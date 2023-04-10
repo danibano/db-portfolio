@@ -16,7 +16,6 @@ function App() {
 
   return (
     <div className='bg-white px-10'>
-
       <Header />
       <Home />
       <About />
