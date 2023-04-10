@@ -42,7 +42,7 @@ const Header = () => {
 
 
   return (
-      <div ref={headerRef} className="flex items-center justify-between h-[80px]" >
+      <div ref={headerRef} className="flex items-center justify-between h-[80px] px-10" >
         <h1 className='text-xl '><a href="#home">Dani Bano</a></h1> 
         <nav ref={menuRef} onClick={toggleMenu} className='flex justify-between items-center h-[80px] menu'> 
         <ul className='flex items-center'>

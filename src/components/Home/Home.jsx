@@ -8,14 +8,14 @@ import resume from '../Resume/Resume.pdf'
 
 const Home = () => {
   return (
-    <section id="home" className='min-h-screen'>
+    <section id="home" className='min-h-screen px-10'>
       <div className="md:flex items-center justify-between sm:flex-col lg:flex-row lg:pt-40">
         <div className="w-full xl:pl-40 md:basis-1/2">
           <h1 data-aos='fade-up' data-aos-duration='1500' className="text-5xl"> Danielle Banovetz</h1>
           <h2 data-aos='fade-up' data-aos-duration='1500' className="text-emerald-700 text-3xl mt-2">Web Developer</h2>
           
           <div data-aos='fade-down' data-aos-duration='1800' data-aos-delay='300' className="flex items-center gap-6 mt-7">
-            <a href="../Resume/Resume.pdf" download={resume} target="_blank">
+            <a href={resume} target="_blank">
               <button className="flex items-center gap-2 text-xl text-white bg-emerald-700 hover:bg-emerald-500 ease-in duration-300 p-3 rounded">
                 <AiOutlineDownload/> 
                 My Resume

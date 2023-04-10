@@ -8,7 +8,7 @@ import workday from '../../img/workday.png'
 
 const Projects = () => {
     return (
-      <section>
+      <section className="px-10">
       <div>
         <h2 id='projects' className='text-5xl py-3 text-emerald-800 text-center md:text-6xl'> Projects</h2>
       </div>

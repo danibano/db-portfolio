@@ -3,7 +3,7 @@ import {FaGraduationCap,FaCodeBranch, FaDesktop} from 'react-icons/fa'
 
 const About = () => {
   return (
-      <section className='min-h-screen'>
+      <section className='min-h-screen px-10'>
         <div className="text-center">
           <h2 id='about' className='text-5xl py-3 text-emerald-800 '> About Me</h2>
 
