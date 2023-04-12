@@ -18,9 +18,9 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="pb-16 px-10 min-h-[84vh] pt-20">
+    <section id="contact" className="flex flex-col items-center justify-start pt-[80px] lg:min-h-[92vh] min-h-[84vh]">
       <div>
-        <h2 className="text-emerald-700 mb-8 text-5xl">Contact</h2>
+        <h2 className="text-emerald-700 p-8 text-5xl">Contact</h2>
       </div>
 
       <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center px-4 lg:px-8 py-8 bg-emerald-700 ">

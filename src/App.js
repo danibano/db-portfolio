@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import Aos from 'aos'
 import './App.css';
 import Header from './components/Header/Header'
+import Socials from './components/Socials/Socials';
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Projects from './components/Projects/Projects'
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className='bg-white'>
       <Header />
+      <Socials />
       <Home />
       <About />
       <Projects />

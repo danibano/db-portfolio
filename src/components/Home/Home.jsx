@@ -3,26 +3,44 @@ import me from '../../img/me.jpg'
 import {AiOutlineDownload} from 'react-icons/ai'
 import {BsFillEyeFill} from 'react-icons/bs'
 import {AiOutlineAppstore} from 'react-icons/ai'
-import resume from '../Resume/Danielle_Banovetz_Resume.pdf'
+import resume from '../Resume/DB_Resume.pdf'
 
 
 const Home = () => {
+
+  const handleClick = e => {
+    e.preventDefault()
+  
+    const targetAttr = e.target.getAttribute('href')
+    const targetElement = document.querySelector(targetAttr)
+  
+    if (targetElement) {
+      const location = targetElement.offsetTop
+  
+      window.scrollTo({
+        top: location - 80,
+        left: 0
+      })
+    }
+  }
+  
+
   return (
     <section id="home" className='min-h-screen px-10'>
-      <div className="md:flex items-center justify-between sm:flex-col lg:flex-row lg:pt-40">
-        <div className="w-full xl:pl-40 md:basis-1/2">
+      <div className="md:flex items-center justify-between md:flex-col lg:flex-row lg:pt-40">
+        <div className="w-full xl:pl-40 md:basis-1/2 lg:pl-32">
           <h1 data-aos='fade-up' data-aos-duration='1500' className="text-5xl"> Danielle Banovetz</h1>
           <h2 data-aos='fade-up' data-aos-duration='1500' className="text-emerald-700 text-3xl mt-2">Web Developer</h2>
           
-          <div data-aos='fade-down' data-aos-duration='1800' data-aos-delay='300' className="flex items-center gap-6 mt-7">
+          <div data-aos='fade-down' data-aos-duration='1800' data-aos-delay='300' className=" flex items-center gap-6 mt-7">
             <a href={resume} target="_blank">
-              <button className="flex items-center gap-2 text-xl text-white bg-emerald-700 hover:bg-emerald-500 ease-in duration-300 p-3 rounded">
+              <button className="lg:hidden md: flex items-center gap-2 text-xl text-white bg-emerald-700 hover:bg-emerald-500 ease-in duration-300 p-3 rounded">
                 <AiOutlineDownload/> 
                 My Resume
               </button>
             </a>
 
-            <a href="#projects">
+            <a onClick={handleClick} href="#projects">
               <button className="flex items-center gap-2 text-xl text-white bg-emerald-700 hover:bg-emerald-500 ease-in duration-300 p-3 rounded">
                 <BsFillEyeFill />
                 My Work
