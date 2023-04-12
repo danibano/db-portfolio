@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/db-portfolio/static/css/main.7a096bdd.css",
-    "main.js": "/db-portfolio/static/js/main.c1d48a1c.js",
+    "main.css": "/db-portfolio/static/css/main.bcf50748.css",
+    "main.js": "/db-portfolio/static/js/main.a16f2f36.js",
     "static/js/787.1ed0c42c.chunk.js": "/db-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.jpg": "/db-portfolio/static/media/me.7071696f425a416730d6.jpg",
     "static/media/barstool.png": "/db-portfolio/static/media/barstool.575838d4f0718230142b.png",
@@ -10,14 +10,14 @@
     "static/media/team.png": "/db-portfolio/static/media/team.4f11e79a669a5ee41a1c.png",
     "static/media/quiz.png": "/db-portfolio/static/media/quiz.cf08859cb5df86b9c0e6.png",
     "static/media/workday.png": "/db-portfolio/static/media/workday.f84c062484caa8feadf6.png",
-    "static/media/Danielle_Banovetz_Resume.pdf": "/db-portfolio/static/media/Danielle_Banovetz_Resume.8d811d66a3e6c212630f.pdf",
+    "static/media/DB_Resume.pdf": "/db-portfolio/static/media/DB_Resume.dcb3307e5b980d8b6a58.pdf",
     "index.html": "/db-portfolio/index.html",
-    "main.7a096bdd.css.map": "/db-portfolio/static/css/main.7a096bdd.css.map",
-    "main.c1d48a1c.js.map": "/db-portfolio/static/js/main.c1d48a1c.js.map",
+    "main.bcf50748.css.map": "/db-portfolio/static/css/main.bcf50748.css.map",
+    "main.a16f2f36.js.map": "/db-portfolio/static/js/main.a16f2f36.js.map",
     "787.1ed0c42c.chunk.js.map": "/db-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a096bdd.css",
-    "static/js/main.c1d48a1c.js"
+    "static/css/main.bcf50748.css",
+    "static/js/main.a16f2f36.js"
   ]
 }
